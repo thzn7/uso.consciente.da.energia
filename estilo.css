@@ -1,5 +1,10 @@
+@import url("./estilos/header.css");
+
+
+
 :root{
-    --plano-de-fundo:#EBECEE;
+    --plano-de-fundo:#707070;
+    --cor-cabecalho: #ffffff;
 }
 
 body{
