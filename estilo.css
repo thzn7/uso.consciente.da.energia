@@ -1,11 +1,12 @@
-@import url("./estilos/header.css");
+@import url("./estilos/hearder.css");
 
 
 
 :root{
-    --plano-de-fundo:#707070;
+    --plano-de-fundo:#ffffff;
     --cor-cabecalho: #ffffff;
     --titulo-cabecalho: #EB9B00;
+    --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37);
 }
 
 body{
