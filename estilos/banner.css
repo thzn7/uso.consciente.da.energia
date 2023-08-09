@@ -1,0 +1,7 @@
+.banner{
+    background: var(--azul-degrade);
+    color: var(--cor-texto);
+    text-align: center;
+    padding: 2.5em 2em;
+
+}

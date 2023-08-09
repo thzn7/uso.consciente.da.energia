@@ -6,7 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Energia Solar e Eólica</title>
     <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./estilo.css">
+    <link rel="stylesheet" href="./estilos/hearder.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+
+
 </head>
 <body>
     <header class="cabecalho">
@@ -60,6 +66,44 @@
     </div>
     
     </header>
+    <section class="banner">
+    <h2 class="banner--titulo">Já sabe por onde começar?</h2>
+    <p class="banner--texto">Encontre em nosso site informações sobre tipos de energia e seus processos químicos</p>
+    </section>
+    <section class="carrosel">
+        <h2>conteudo</h2>
+        <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="./img/image 33.png" alt=""></div>
+      <div class="swiper-slide"><img src="./img/image 32.png" alt=""></div>
+      <div class="swiper-slide"><img src="./img/Frame 160.png" alt=""></div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+  <section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script >
+        const swiper = new Swiper('.swiper', {
+  spaceBetween: 100,
+  slidePerview: 3
+  pagination:{
+    el
+  }
+
+});
+    </script>
     
 </body>
 </html>/

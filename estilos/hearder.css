@@ -1,4 +1,4 @@
-.cabecalho__menu-hamburguer{
+.cabecalho_menu-hamburguer{
     background-image: url("../img/Menu.svg");
     display: inline-block;
     width: 24px;
@@ -49,8 +49,9 @@
     text-transform: uppercase;
 }
 .lista-menu__link{
-    background-color: var(--azul-derade);
+    background: var(--azul-derade);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    text-decoration: none;
 }
