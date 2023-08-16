@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Energia Solar e Eólica</title>
     <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./estilos/hearder.css">
+    <link rel="stylesheet" href="./estilos.css">
     <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
@@ -70,8 +70,9 @@
     <h2 class="banner--titulo">Já sabe por onde começar?</h2>
     <p class="banner--texto">Encontre em nosso site informações sobre tipos de energia e seus processos químicos</p>
     </section>
+
     <section class="carrosel">
-        <h2>conteudo</h2>
+        <h2 class="carrosel--titulo">conteudo</h2>
         <!-- Slider main container -->
 <div class="swiper">
     <!-- Additional required wrapper -->
@@ -79,7 +80,7 @@
       <!-- Slides -->
       <div class="swiper-slide"><img src="./img/image 33.png" alt=""></div>
       <div class="swiper-slide"><img src="./img/image 32.png" alt=""></div>
-      <div class="swiper-slide"><img src="./img/Frame 160.png" alt=""></div>
+      <div class="swiper-slide"><img src="./img/image 31.png" alt=""></div>
       ...
     </div>
     <!-- If we need pagination -->
@@ -97,13 +98,19 @@
     <script >
         const swiper = new Swiper('.swiper', {
   spaceBetween: 100,
-  slidePerview: 3
-  pagination:{
-    el
-  }
+  slidePerview: 3,
+   pagination:{
+    el:'swiper-pagination',
+    type: "bullets"
+
+
+
+}
+
 
 });
-    </script>
+
+</script>
     
 </body>
 </html>/
